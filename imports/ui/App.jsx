@@ -37,7 +37,7 @@ class App extends Component {
 
           <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
             <input
-              class='task-input'
+              class='task-input font'
               type="text"
               ref="textInput"
               placeholder="Add tasks"
