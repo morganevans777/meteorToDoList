@@ -1,0 +1,89 @@
+/* CSS declarations go here */
+
+body {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    background-color: #4C6A92;
+}
+
+.task-input {
+    border: 2px solid black;
+    width: 80%;
+    font-size: 50px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 2px solid black;
+    margin-right: 40px;
+    border-radius: 25px;
+    background-color: #92B6D5;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.delete {
+    float: right;
+    background: none;
+    font-weight: bold;
+    font-size: 50px;
+    border: none;
+    position: relative;
+    padding-right: 15px;
+    color: #E50914;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    float: left;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.checkbox:active, .checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+    border: 1px solid black;
+}
+
+.checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+    color: black;
+}
+
+.checkbox {
+    padding: 18px;
+    margin: 11px 0px 0px 21px;
+    border: 1px solid black;
+}
+
+.checkbox:checked:after {
+	font-size: 35px;
+    left: 3px;
+    color: #12c700
+}
